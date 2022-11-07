@@ -1,0 +1,91 @@
+
+
+.inner {
+  
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://www.pixelstalk.net/wp-content/uploads/images1/Interior-design-furniture-room-wallpaper-1920x1200.jpg');
+  background-size: cover;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+
+.avatar {
+  width: 50%;
+  border-radius: 50%;
+}
+
+@media (max-width: 767px) {
+  .avatar {
+    width: 30%;
+    border-radius: 50%;
+  }  
+}
+
+
+
+.input {
+  background-color: rgba(255, 255, 255, 0.2);
+  border: none;
+  color: #ffffff;
+  padding: 0.5rem;
+  display: block;
+  width: 100%;
+  margin-top: 0.3rem;
+  border-radius: 5px;
+
+}
+
+.input::placeholder {
+  color: #bebebe;
+}
+
+.input:focus {
+  border: none;
+  outline: none;
+}
+
+span.psw {
+  float: right;
+  }
+
+.imgContainer {
+  text-align: center;
+}
+
+span > a {
+  text-decoration: none;
+}
+
+span.signupFree {
+  text-align: center;
+  display: block;
+  padding-top: 15px;
+}
+
+ .inner .container {
+  display: flex;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(8.5px);
+  border-radius: 10px;
+  height: 90vh;
+  width: auto;
+  align-items: center;
+  padding: 50px;
+  }  
+.invalid-creds {
+  text-align: center;
+  color: #ff0000;
+  margin: 10px;
+}
+
+.success-creds {
+  text-align: center;
+  color: green;
+  margin: 10px;
+}
